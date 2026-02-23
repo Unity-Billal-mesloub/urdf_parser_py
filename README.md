@@ -35,7 +35,7 @@ This an attempt to generalize the structure of the URDF via reflection to make i
 
 1.	Support additional formats (SDF, drakeURDF, etc.)
 	*	Parse Gazebo's SDF definition files at some point? For speed's sake, parse it and have it generate code to use?
-	*	Consider auto-generating modules from schemas such as [urdf.xsd](https://github.com/ros/urdfdom/blob/master/xsd/urdf.xsd). This can extend to [SDF](http://sdformat.org/schemas/model.xsd), [drakeURDF](https://github.com/RobotLocomotion/drake/blob/master/drake/doc/drakeURDF.xsd).
+	*	Consider auto-generating modules from schemas such as [urdf.xsd](https://github.com/Unity-Billal-mesloub/urdfdom/blob/main/xsd/urdf.xsd). This can extend to [SDF](http://sdformat.org/schemas/model.xsd), [drakeURDF](https://github.com/Unity-Billal-mesloub/drake/blob/main/drake/doc/drakeURDF.xsd).
 2.	Make a direct, two-way URDF <-> SDF converter.
 	*	Gazebo has the ability to load URDFs and save SDFs, but it lumps everything together
 3.	Consider a cleaner implementation for reflection.
